@@ -2,9 +2,36 @@
 layout: default
 ---
 <p>
-  Storyteller allows you to guide others through the twists and turns of your code. You can draw pictures, create text, record 
-  audio/video and link it to how your code evolved. 
+  Storyteller allows you to guide others through the twists and turns of your code. You can draw pictures, capture screenshots, create 
+  text, record audio/video and link it to how your code evolved. 
 </p>
+<p>
+  Traditionally, the only place programmers will consistently document their thought processes about their code is in code comments. 
+  However, code comments are not a great place to describe how some code has evolved over time. It doesn't make much sense to have a code
+  comment describing the change of a variable name from <code>weight</code> to <code>volumeOfPackage</code> if the former is not present in 
+  the code anymore. This is also true for bug fixes, feature enhancements, and optimizations. 
+</p>
+<p>
+  Storyteller records all of the development process so that it can be animated in a playback. The playback shows all of the changes
+  made to the code in the order the developer made them. There is no need to decide when to commit your changes since the system can
+  be recreated at any point in its history.
+</p>
+<p>
+  More importantly, these playbacks can be paused and a developer can add a comment (text, pic, audio/video) that describes the code 
+  in its current state. A developer can use a group of these comments to provide a narrative about how and why the code evolved the
+  way it did.
+</p>
+<p>
+  Creating one or more playbacks is a great way to: 
+  <ul>
+    <li>onboard newcomers to get them up to speed on your code</li>
+    <li>create learning materials for other developers</li>
+    <li>prepare others for a code review of your code</li>
+    <li>write about what you have been up to for your team and managers</li>
+</ul>
+You can also ask potential hires to create playbacks so that you can see their thought processes while working on a coding challenge.
+</p>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
