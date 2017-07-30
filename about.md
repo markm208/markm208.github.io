@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Storyteller allows you to guide others through the twists and turns of your code.
 
 ### More Information
 
