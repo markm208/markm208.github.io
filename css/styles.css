@@ -1,0 +1,61 @@
+body { 
+  background-color: rgb(59,76,98); /* rgb(19, 37, 59);*/
+  color:white;
+  font-size: 1.75rem;
+  margin-bottom: 300px;
+} 
+
+a:link,  
+a:visited { 
+  color: white; 
+  font-weight: bold;
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: underline; 
+} 
+
+.card-link:link,  
+.card-link:visited { 
+    color: rgb(59,76,98);
+    font-weight: bold;
+    text-decoration: none; 
+} 
+.card-link:hover { 
+    text-decoration: underline; 
+} 
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(229, 231, 240);
+  color: black;
+}
+.card-title {
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+.card-footer {
+  padding: 15px 20px;
+}
+
+header {
+  margin: 45px 35px 15px 35px;
+}
+
+.testimonial {
+  padding: 10px 60px;
+}
+
+.testimonialQuote {
+  font-style: italic;
+}
+.markpic {
+  height: 70px;
+}
+
+.authName {
+  font-size: 1.15em;
+  font-weight: 300;
+}

@@ -1,61 +1,290 @@
----
-layout: default
-published: true
----
-<p>
-  My name is Mark Mahoney. I am a computer science professor at Carthage College in Kenosha, WI. 
-</p>
-<p>
-  I am also the creator of Storyteller which is a tool that helps developers guide others through their code. 
-  If you'd like to learn more you can watch a <a href='https://markm208.github.io/stDemo/playback.html'>brief demo about using Storyteller</a>, 
-  visit the <a href='https://github.com/markm208/storyteller'>project page</a>, look at <a href='https://markm208.github.io/storyteller/'>the docs</a>, 
-  or read one of my 'books' of playbacks:
-  <ul>
-    <li>
-      <a href='https://markm208.github.io/sqlbook/'>Database Design and SQL for Beginners</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/flutterbook/'>Mobile App Development with Dart and Flutter</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/cppbook/'>An Animated Introduction to Programming in C++</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/pybook/'>An Animated Introduction to Programming with Python</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/webdevbook/'>An Introduction to Web Development from Back to Front</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/cljbook/'>An Animated Introduction to Clojure</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/patternbook/'>OO Design Patterns with Java</a>
-    </li>
-    <li>
-      <a href='https://markm208.github.io/sqlitebook/'>Programming with SQLite</a>
-    </li>    
-  </ul>
-</p>
-<p>
-  <strong>NEW!</strong>
-  We are still trying to make code playbacks even better. 
-  We would love some feedback on the medium. 
-  Can you spare a couple of minutes to <a href='https://www.surveymonkey.com/r/FKBXTC5' target='_blank'>let us know what you think?</a>
-</p>
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!DOCTYPE html>
+<html lang="en-US">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <div class="entry">
-        {{ post.excerpt }}
+  <title>Mark Mahoney's Code Playbacks</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="display-5">
+        "I've always wanted to be able to guide others through my code and tell the <em>story</em>
+        of how it came to be."
+      </h1>
+      <p class="authName"><img src="images/mark.jpg" class="img-fluid rounded-circle border border-light markpic"/> &nbsp;Mark Mahoney</p>
+    </header>
+    <hr />
+    <article>
+      <p>
+        I am the creator of <a href="https://github.com/markm208/storyteller" target="blank">Storyteller</a>,
+        a tool that helps software developers walk others through their work in guided code 'playbacks'. 
+        Playbacks replay programming sessions with a narrative from the author. 
+        All that is needed to view a playback is a web browser.
+        Viewers can get inside the author's head when they were writing code. 
+        Authors can include text, hand-drawn pictures, screenshots, and videos and link them directly to highlighted sections of code.
+      </p>      
+      <p>
+        I am also a computer science professor and I create collections of code playbacks instead of
+        assigning textbooks for the courses that I teach. Here is 
+        <a href="https://dev.to/markm208/storyteller-a-new-medium-for-guiding-others-through-code-2gnm" target="_blank">a post with my thoughts on media used to learn about programming</a>.
+        You can read or share one of my free 'books' below.
+      </p>
+
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/sqlbook/" target="_blank">
+              <img src="images/sqlbook.png" class="img-fluid card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <span class="badge bg-secondary">NEW!</span> 
+                <a href="https://markm208.github.io/sqlbook/" class="card-link" target="_blank">Database Design and SQL for Beginners</a>
+              </h4>
+              <p class="card-text">
+                Learn what a relational database is and the basics of how to design one and write queries in SQL.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/flutterbook/" target="_blank">
+              <img src="images/flutter.png" class="img-fluid card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <span class="badge bg-secondary">NEW!</span> 
+                <a href="https://markm208.github.io/flutterbook/" class="card-link" target="_blank">Mobile App Development with Dart and Flutter</a>
+              </h4>
+              <p class="card-text">
+                Flutter is a mobile front-end framework for making mobile, web, and dekstop apps.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/cppbook/" target="_blank">
+              <img src="images/cpp.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/cppbook/" class="card-link" target="_blank">An Animated Introduction to Programming in C++</a>
+              </h4>
+              <p class="card-text">
+                Learn to program in one of the most popular languages, C++.
+                This is appropriate if you are brand new to programming.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/pybook/" target="_blank">
+              <img src="images/py.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/pybook/" class="card-link" target="_blank">An Animated Introduction to Programming with Python</a>
+              </h4>
+              <p class="card-text">
+                Learn to program in one of the most popular languages, Python.
+                This is appropriate if you are brand new to programming.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/webdevbook/" target="_blank">
+              <img src="images/webdev.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/webdevbook/" class="card-link" target="_blank">An Introduction to Web Development from Back to Front</a>
+              </h4>
+              <p class="card-text">
+                Learn how to make web applications using HTML, CSS, and Javascript.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/cljbook/" target="_blank">
+              <img src="images/clj.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/cljbook/" class="card-link" target="_blank">An Animated Introduction to Clojure</a>
+              </h4>
+              <p class="card-text">
+                Clojure is a fun and easy to use functional programming language.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/patternbook/" target="_blank">
+              <img src="images/patterns.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/patternbook/" class="card-link" target="_blank">OO Design Patterns with Java</a>
+              </h4>
+              <p class="card-text">
+                Design patterns are solutions to common problems that show up over and over in 
+                software development. Learn about some of the most common object oriented design patterns.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <a href="https://markm208.github.io/sqlitebook/" target="_blank">
+              <img src="images/sqlite.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://markm208.github.io/sqlitebook/" class="card-link" target="_blank">Programming with SQLite</a>
+              </h4>
+              <p class="card-text">
+                Learn how to use the relational DBMS SQLite in Python, C/C++, and Java.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <a href="https://github.com/markm208/storyteller" target="_blank">
+              <img src="images/stEditor.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Do you want to make your own playbacks?</h4>
+              <p class="card-text">
+                Storyteller is free and open source software. You can make your own playbacks and
+                share them with others. Here is a 
+                <a href="https://markm208.github.io/stDemo/playback.html" target="_blank" class="card-link">brief demonstration of how to make playbacks</a>.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/markm208/storyteller" class="card-link" target="_blank">Check out the repo on GitHub!</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
-  {% endfor %}
-</div>
--->
+    <hr />
+    <article>
+      <p>
+        Students consistently say that playbacks are more valuable than textbooks <em>and</em> videos.
+        They use the playbacks as references when writing their own code. 
+        88% of my students said that they would like their other CS courses to use playbacks.
+      </p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <figure class="testimonial">
+              <blockquote class="blockquote">
+                <p class="h2 testimonialQuote">
+                  "Having the blend of high-level 'what is this and what is it for' and low-level
+                  'how do I use this' in the same resource made the playbacks an invaluable resource."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Anonymous Student
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item" >
+            <figure class="testimonial">
+              <blockquote class="blockquote">
+                <p class="h2 testimonialQuote">
+                  "To say they were helpful would be an understatement. They were so helpful in seeing the structure of the patterns discussed." 
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Anonymous Student
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item" >
+            <figure class="testimonial">
+              <blockquote class="blockquote">
+                <p class="h2 testimonialQuote">
+                  "The playbacks struck a very good balance between talking about a topic and showing how to do something. 
+                  The blend of content involved is quite nice and very beneficial to understanding the topic at hand."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Anonymous Student
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      I am still trying to make code playbacks better. I would love some feedback on the medium. Can you spare a
+      couple of minutes to <a href="https://www.surveymonkey.com/r/FKBXTC5" target="_blank">let me know what you think?
+      </a>
+    </article>
+    <hr />
+    <footer>
+      <p class="text-end">
+        Brought to you by <a href="mailto:markm208@gmail.com" target="_blank">Mark Mahoney</a>
+        <a href="https://github.com/markm208/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+        </a>
+        <a href="https://twitter.com/markm208" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/drmarkmahoney/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
