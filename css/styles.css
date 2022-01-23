@@ -1,5 +1,5 @@
 body { 
-  background-color: /*rgb(59,76,98); */ rgb(19, 37, 59);
+  background-color: rgb(59,76,98); /* rgb(19, 37, 59);*/
   color:white;
   font-size: 1.75rem;
   margin-bottom: 300px;
@@ -15,14 +15,21 @@ a:hover {
   text-decoration: underline; 
 } 
 
+.card-footer {
+  max-height: 350px;
+  overflow: scroll;
+  font-size: 0.85em;
+}
+
 .card-link:link,  
-.card-link:visited { 
+.card-link:visited
+ { 
     color: rgb(59,76,98);
     font-weight: bold;
     text-decoration: none; 
 } 
 .card-link:hover { 
-    text-decoration: underline; 
+  text-decoration: underline; 
 } 
 
 .card {
@@ -34,10 +41,6 @@ a:hover {
 .card-title {
   font-size: 1.05em;
   font-weight: bold;
-}
-
-.card-footer {
-  padding: 15px 20px;
 }
 
 header {
@@ -57,5 +60,16 @@ header {
 
 .authName {
   font-size: 1.15em;
-  font-weight: 300;
+  font-weight: 350;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -20px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -20px;
 }
