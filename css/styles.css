@@ -30,6 +30,7 @@ a:hover {
 } 
 .card-link:hover { 
   text-decoration: underline; 
+  color: black;
 } 
 
 .card {
